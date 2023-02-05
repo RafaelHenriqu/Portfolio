@@ -1,0 +1,168 @@
+ 
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+menu{
+background-color: rgba(46, 44, 44, 0.237);
+border-radius: 20px;
+height: 50px;
+font-size: 20px;
+text-align: center;
+color: white;
+ 
+ position: absolute;
+margin: auto;
+left: 50%;
+transform: translate(-50%);
+
+
+}
+menu > span > a{
+    position: relative;
+    top: 10px;
+    margin-left: 5px;     
+       color: white;
+       text-decoration: none;  
+       font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;               
+
+}
+menu > span > a:hover{
+text-decoration: underline;
+ 
+     
+}
+body{
+   background-image: url(../Imagens/wallpaper.png);
+   background-attachment: fixed;
+   background-position: center left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+#iContate-me{
+
+    background-color:#4e2111ab;
+    width: 300px;
+    height: 60px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 200px;
+    color: white;
+box-shadow: 1px 1px 10px #4e2111;     
+border: 1px solid #4e21111a;
+
+
+}
+#iContate-me > a{
+    position: absolute;
+    top: 18px;
+    left: 90px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+ 
+}
+#iContate-me > a:hover{
+
+    color: red;
+}
+
+#Sobre-MinPag{
+    
+
+    border-radius: 20px 20px 0px 0px;
+    background-color: #4e21116f;
+    width: 99.9%; 
+
+    position: absolute;
+top: 100%;
+color: rgb(255, 255, 255);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+border: 1px solid #34170cb1;
+max-width: 99.8%;
+min-height: 200px;
+text-align: center;
+
+}
+h1{
+    text-align: center;
+
+   
+}
+p{
+padding-left: 20px;
+text-shadow: 1px 1px 22px black;
+}
+ 
+
+#Projeto1{
+    background-color: rgb(28, 26, 26);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+margin-left: 20px;
+ margin: auto;
+ margin-top: 50px;
+ 
+}
+.ProjetosEmBreve{
+ padding-top: 80px;
+}
+#Projeto1:hover{
+background-color:rgb(17, 18, 18) ;
+color: aqua;
+}
+#Infos{
+    background-color: rgba(28, 26, 26, 0.769);
+    width: 600px;
+    height: 300px;
+margin: auto;
+margin-bottom: 20px;
+border-radius: 20px;
+border: 1px solid rgb(28, 26, 26);
+box-shadow: 1px 1px 12px rgb(28, 26, 26);
+
+}
+#Infos > a{
+color: white;
+}
+#CelularA{
+    display: none;
+}
+/* https://unpkg.com/scrollreveal Contate-me*/
+
+
+@media screen and (max-width: 770px){
+
+    #Infos{
+    
+ max-width: 100%;
+
+    }
+    #Sobre-MinPag{
+max-width: 99%;
+
+
+
+    }
+}
+@media screen and (max-width: 300px ){
+    #iContate-me{
+display: none;
+
+    }
+#CelularA{
+    display: block;
+    color: white;
+}   
+       
+}
