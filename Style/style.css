@@ -7,19 +7,18 @@
 }
 
 menu{
-background-color: rgba(46, 44, 44, 0.237);
-border-radius: 20px;
-height: 50px;
-font-size: 20px;
-text-align: center;
-color: white;
- 
- position: absolute;
-margin: auto;
-left: 50%;
-transform: translate(-50%);
-
-
+  
+ background-color: rgba(46, 44, 44, 0.237);
+        border-radius: 20px;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+         
+         position: absolute;
+        margin: auto;
+        left: 50%;
+        transform: translate(-50%);
 }
 menu > span > a{
     position: relative;
@@ -69,6 +68,10 @@ border: 1px solid #4e21111a;
     color: white;
     text-decoration: none;
  
+
+}
+#iContate-me:hover{
+    animation: Contate-meAnimation .3s forwards;
 }
 #iContate-me > a:hover{
 
@@ -120,6 +123,7 @@ margin-left: 20px;
 #Projeto1:hover{
 background-color:rgb(17, 18, 18) ;
 color: aqua;
+animation: ProjetosAnimation .9s forwards alternate; 
 }
 #Infos{
     background-color: rgba(28, 26, 26, 0.769);
@@ -177,22 +181,35 @@ color: white;
 }
 
 ::-webkit-scrollbar-thumb{
-    color: white;
+    color: white; 
     background-color: rgb(238, 147, 2);
 border-radius: 20px;
 
 }
 
-@keyframes Start {
+@keyframes ProjetosAnimation {
     to{
 
-
-
+        width: 300px;
+        height: 210px;
+        box-shadow: 1px 1px 20px black;
+        border: 1px solid white;
     }
 
     from{
 
-
+        border: 1px solid aqua;
+        box-shadow: 1px 1px 12px rgb(253, 253, 253);
+       
         
     }
+}
+
+@keyframes Contate-meAnimation {
+    to , from {
+        background-color: #4e2111b7;
+        border: 1px solid #614940ab;
+           
+      }
+
 }
