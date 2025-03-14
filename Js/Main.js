@@ -35,7 +35,3 @@ function Verify_button(Type){
     
 
 }
-function Start(){
-    document.getElementById("Photo").style.backgroundImage = `url(https://avatars.githubusercontent.com/u/123227224?v=4)`
-}
-Start()
