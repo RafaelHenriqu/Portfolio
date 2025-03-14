@@ -31,10 +31,10 @@ function Verify_button(Type){
     if (Type == "Entrar_em_contato"){
         window.location.href = "mailto:noahcodeoficial@gmail.com?subject=Desenvolvimento+Back+End"
     }
-
-    if (Type == "Download_CV"){
-        window.location.href = "../CV.pdf"
-    }
+    
     
 
+}
+function Start(){
+    document.getElementById("Photo").style.backgroundImage = `url(https://avatars.githubusercontent.com/u/123227224?v=4)`
 }
