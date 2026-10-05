@@ -38,21 +38,21 @@ html{
     & > #Photo{
         background-position: center;
         background-size: cover;
-        background-image: url(Img/Foto.jpg);
+        background-image: url(https://avatars.githubusercontent.com/u/123227224?v=4);
         background-position-x: center;
         width: 30vh;
         height: 30vh;
         border-radius: 100vh;
         opacity: 0.5;
         animation: Floating infinite 3s ease-in-out;
-        border: 2px solid #2b75e4;
+        border: 2px solid #2be444;
         filter: saturate(2);
-        box-shadow: 0px 0px 3vh #3782f3;
+        box-shadow: 0px 0px 3vh #37f366;
         &:hover{
             opacity: 1;
             filter: saturate(1);
-            box-shadow: 0px 0px 20vh #ed37f3;
-            border: 2px solid #ed37f3;
+            box-shadow: 0px 0px 20vh #37f366;
+            border: 2px solid #37f38c;
         }
     }
 
